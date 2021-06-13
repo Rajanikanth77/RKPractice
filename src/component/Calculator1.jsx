@@ -41,6 +41,7 @@ export default function Calculator1() {
                     <button style={button} onClick = {() => setData(data+'+')}>+</button>
                     <button style={button} onClick = {() => setData(data+'-')}>-</button>
                     <button style={button} onClick = {() => setData(data+'*')}>*</button> <br />
+                    <button style={button} onClick = {() => setData(data+'/')}>/</button> <br />
                     <button style={button} onClick = {() => setData('')}>cr</button> </center>
                   <center>  
             </center>
